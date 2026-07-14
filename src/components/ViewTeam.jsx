@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import NavBar from './NavBar'
 
 const ViewTeam = () => {
 
@@ -29,6 +30,7 @@ const ViewTeam = () => {
                 minHeight: "100vh"
             }}
         >
+            <NavBar/>
 
             <div className="container-fluid px-4 px-md-5 py-5">
 
